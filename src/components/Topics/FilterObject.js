@@ -44,6 +44,7 @@ class FilterObject extends Component{
             <button
                 className="confirmationButton"
                 onClick={() => {this.objectFilter(this.state.userInput)}}>
+                    Filter
             </button>
             <span 
                 className="resultsBox filterObjectRB">

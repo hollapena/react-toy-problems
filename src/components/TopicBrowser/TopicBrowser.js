@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 
-const TopicBrowser = () => {
+class TopicBrowser extends Component{
+
+render() {
     return(
-        <p> 
-            Hello World
+        <p className="title"> 
+            Toy Problem Solver
         </p>
     );
+};
 };
 
 export default TopicBrowser;
